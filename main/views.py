@@ -5,22 +5,7 @@ from django.views.decorators.csrf import csrf_exempt
 from .models import User
 # from .model import analyze_text
 from django.contrib import messages
-import numpy as np # linear algebra
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)\
-import torch
-from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
-import torch.nn.functional as F
-from transformers import BertTokenizer, BertConfig,AdamW, BertForSequenceClassification,get_linear_schedule_with_warmup
-import pandas as pd
-import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import confusion_matrix,classification_report
-from sklearn.metrics import accuracy_score,matthews_corrcoef
-from tqdm import tqdm, trange,tnrange,tqdm_notebook
-from sklearn.preprocessing import LabelEncoder
-from ctransformers import AutoModelForCausalLM
 from django.apps import apps     
-
 
 
 def render_home_window(request):
