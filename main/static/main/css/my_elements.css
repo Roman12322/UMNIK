@@ -1,0 +1,25 @@
+.text_1 {
+  display: flex;
+  position: absolute;
+  width: 100%;
+}
+.text_2 {
+  display: flex;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+}
+  
+.try-button {
+  position: absolute;
+  background-color: cornflowerblue; /* Green */
+  border: 3px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
