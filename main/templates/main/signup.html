@@ -1,0 +1,53 @@
+{% load static %}
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <meta name="keywords" content="" />
+      <meta name="description" content="" />
+      <meta name="author" content="" />
+      <link rel="shortcut icon" href="{% static 'main/images/favicon.png' %}" type="">
+      <title>AI.Force</title>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css">
+      <link rel="stylesheet" type="text/css" href="{% static 'main/css/bootstrap.css' %}" />
+      <link href="{% static 'main/css/signup-window.css' %}" rel="stylesheet" />
+   </head>
+   <body>
+      <div class="wrapper">
+         <h2>Registration</h2>
+         <form action="register" method="post">
+           {% csrf_token %}
+           <div class="input-box">
+             <input type="text" placeholder="Enter your email" required name="email" id="email">
+           </div>
+           <div class="input-box">
+             <input type="password" placeholder="Create password" required name="password" id="password">
+           </div>
+           <div class="input-box">
+             <input type="password" placeholder="Confirm password" required name="c_password" id="c_password">
+           </div>
+           <div class="policy">
+             <input type="checkbox">
+             <h3>I accept all terms & condition</h3>
+           </div>
+           <div class="input-box button">
+             <input type="Submit" value="Register Now">
+           </div>
+           <div class="text">
+             <h3>Already have an account? <a href="https://aiforce.up.railway.app/signin">Login now</a></h3>
+           </div>
+           <div class="text">
+            {% if messages %}
+            <ul class="messages">
+                {% for message in messages %}
+                <h3>{{ message }}</h3>
+                {% endfor %}
+            </ul>
+            {% endif %}
+           </div>
+         </form>
+       </div>
+   </body>
+</html>

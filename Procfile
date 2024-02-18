@@ -1,0 +1,1 @@
+web: gunicorn aiforce.wsgi --log-file -
