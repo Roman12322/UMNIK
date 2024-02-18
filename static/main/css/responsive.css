@@ -1,10 +1,64 @@
-@media (max-width: 1300px) {}
+@media (min-width: 1820px) {
+  .try-button {
+    position: absolute;
+    left: 855px;  
+    top: 550px;
+  }
+}
 
-@media (max-width: 1120px) {}
+@media (max-width: 1650px) {
+  .try-button {
+    position: absolute;
+    left: 720px;  
+    top: 550px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .try-button {
+    position: absolute;
+    left: 455px;  
+    top: 550px;
+  }
+  #input_text {
+    position: absolute;
+    left: 450px;
+    width: 35%;
+    top: 0px;
+  }
+  
+  #output_text {
+    position: absolute;
+    left: 265px;
+    width: 35%;
+    top: 0px;
+  }
+
+}
 
 @media (max-width: 992px) {
+  .try-button {
+    position: absolute;
+    left: 400px;  
+    top: 610px;
+  }
+  #input_text {
+    position: absolute;
+    left: 465px;
+    width: 40%;
+    top: 70px;
+  }
+  
+  #output_text {
+    position: absolute;
+    left: 145px;
+    width: 40%;
+    top: 70px;
+  }
+  
   .hero_area {
     min-height: auto;
+    
   }
 
   .hero_area {
@@ -34,6 +88,25 @@
 }
 
 @media (max-width: 768px) {
+
+  .try-button {
+    position: absolute;
+    left: 280px;  
+    top: 610px;
+  }
+  #input_text {
+    position: absolute;
+    left: 470px;
+    width: 35%;
+    top: 70px;
+  }
+  
+  #output_text {
+    position: absolute;
+    left: 30px;
+    width: 35%;
+    top: 70px;
+  }
   .about_section .img-box {
     margin-bottom: 45px;
   }
@@ -41,6 +114,24 @@
 }
 
 @media (max-width: 576px) {
+  .try-button {
+    position: absolute;
+    left: 145px;  
+    top: 710px;
+  }
+  #input_text {
+    position: absolute;
+    left: 420px;
+    width: 35%;
+    top: 170px;
+  }
+  
+  #output_text {
+    position: absolute;
+    left: -100px;
+    width: 35%;
+    top: 170px;
+  }
   .header_section .header_top .contact_nav a span {
     display: none;
   }
@@ -68,6 +159,24 @@
 }
 
 @media (max-width: 480px) {
+  .try-button {
+    position: absolute;
+    left: 110px;  
+    top: 810px;
+  }
+  #input_text {
+    position: absolute;
+    left: 420px;
+    width: 35%;
+    top: 270px;
+  }
+  
+  #output_text {
+    position: absolute;
+    left: -150px;
+    width: 35%;
+    top: 270px;
+  }
   .slider_section .detail-box h1 {
     font-size: 2rem;
   }
@@ -88,6 +197,25 @@
 }
 
 @media (max-width: 420px) {
+  .try-button {
+    position: absolute;
+    left: 110px;  
+    top: 810px;
+  }
+  #input_text {
+    position: absolute;
+    left: 420px;
+    width: 35%;
+    top: 270px;
+  }
+  
+  #output_text {
+    position: absolute;
+    left: -150px;
+    width: 35%;
+    top: 270px;
+  }
+
   .service_section .box {
     flex-direction: column;
   }

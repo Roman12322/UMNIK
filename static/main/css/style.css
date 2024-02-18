@@ -575,9 +575,6 @@ a:focus {
 
 /* Стилизация блока с кнопкой 'record' */
 .try-button {
-  position: absolute;
-  left: 860px;  
-  top: 550px;
   background-color: cornflowerblue; /* Green */
   border: 3px solid black;
   color: black;
