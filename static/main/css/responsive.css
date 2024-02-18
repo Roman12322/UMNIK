@@ -1,10 +1,64 @@
-@media (max-width: 1300px) {}
+@media (min-width: 1820px) {
+  .try-button {
+    position: absolute;
+    left: 855px;  
+    top: 550px;
+  }
+}
 
-@media (max-width: 1120px) {}
+@media (max-width: 1819px) {
+  .try-button {
+    position: absolute;
+    left: 635px;  
+    top: 550px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .try-button {
+    position: absolute;
+    left: 455px;  
+    top: 550px;
+  }
+  #input_text {
+    position: absolute;
+    left: 450px;
+    width: 35%;
+    top: 0px;
+  }
+  
+  #output_text {
+    position: absolute;
+    left: 265px;
+    width: 35%;
+    top: 0px;
+  }
+
+}
 
 @media (max-width: 992px) {
+  .try-button {
+    position: absolute;
+    left: 190px;  
+    top: 750px;
+  }
+  #input_text {
+    position: absolute;
+    left: 450px;
+    width: 35%;
+    top: 165px;
+  }
+  
+  #output_text {
+    position: absolute;
+    left: -60px;
+    width: 35%;
+    top: 165px;
+  }
+  
   .hero_area {
     min-height: auto;
+    
   }
 
   .hero_area {
