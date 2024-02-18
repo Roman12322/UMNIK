@@ -6,10 +6,10 @@
   }
 }
 
-@media (max-width: 1650px) {
+@media (max-width: 1819px) {
   .try-button {
     position: absolute;
-    left: 720px;  
+    left: 620px;  
     top: 550px;
   }
 }
